@@ -1,5 +1,5 @@
 This code is implemented according to paper "Scalable and Parallel Deep Bayesian Optimization on Attributed graphs".
-(DGBO or PDGBO) method can deal with attributed graphs. It prevents the cubical complexity of the GPs by adopting a deep graph neural network to surrogate black-box functions, and can scale linearly with the number of observations. Applications include molecular discovery and urban road network design.
+DGBO/PDGBO methods can deal with attributed graphs. It prevents the cubical complexity of the GPs by adopting a deep graph neural network to surrogate black-box functions, and can scale linearly with the number of observations. Applications include molecular discovery and urban road network design.
 
 This code is implemented for the DGBO with Graph Networks (DGBO_{GN}).
 Folders and their corresponding functions are listed as follows:
