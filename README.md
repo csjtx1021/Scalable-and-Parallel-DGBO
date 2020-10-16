@@ -1,4 +1,4 @@
-This code is implemented according to paper "Scalable and Parallel Deep Bayesian Optimization on Attributed graphs".
+This code is implemented according to paper "[Scalable and Parallel Deep Bayesian Optimization on Attributed graphs](https://ieeexplore.ieee.org/document/9222328)", accepted by the IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
 DGBO/PDGBO methods can deal with attributed graphs. It prevents the cubical complexity of the GPs by adopting a deep graph neural network to surrogate black-box functions, and can scale linearly with the number of observations. Applications include molecular discovery and urban road network design.
 
 Two deep surrogate models are contained in this code, i.e., "DGBO_GC-batch" is the DGBO with 
